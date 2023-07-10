@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section design start */
+.banner{
+    background-image: url('./images/banner.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.banner-details{
+    text-align: right;
+    padding: 0px 100px;
+}
+.banner-title{
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+    line-height: 2.0cm;
+}
+.banner-info{
+    color: rgba(255, 255, 255, 0.714);
+    line-height: 0.6cm;
+    margin: 20px 0px;
+    width: 500px;
+}
+.btn{
+    border: none;
+    background-color: white;
+    color: rgba(0, 0, 255, 0.73);
+    font-size: 16px;
+    padding: 18px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* header section design end */
+
+/* failures section design start  */
+main{
+    width: 70%;
+    margin: auto;
+}
+  .failures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+  }
+  .faliures-img{
+    width: 450px ;
+  }
+  .failures-details{
+      margin-top: 60px;
+  }
+  .failures-title{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.0cm;
+  }
+  .failures-info{
+    color:gray;
+    margin: 20px 0px;
+    line-height: 0.7cm;
+  }
+  .failures-details li {
+    color: gray;
+    line-height: 0.8cm;
+  }
+/* failures section design end  */
+
+/* plans section design start*/
+.plans{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+.plan-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.dream h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+.dream p{
+    color: gray;
+    font-size: 20px;
+}
+.dream img{
+    width: 80px;
+    height: 80px;
+}
+/* plans section design end */
+
+/* mindpic design start */
+.mind-pic{
+    background-image:url('./images/gradient.png'),url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.mind-pic h1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+/* mindpic design end */
+
+/* footer section design start */
+.footer-bg{
+    background-color: rgba(0, 0, 0, 0.931);
+}
+.footer-size{
+    width: 70%;
+    margin: auto;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 180px;
+    height: 400px;
+}
+.footer-title{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.footer-info{
+    color: rgba(255, 255, 255, 0.799);
+    width: 500px;
+    margin: 15px 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0.6cm;
+}
+.footer-contact{
+    color: rgba(255, 255, 255, 0.799);
+    line-height: 0.5cm;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 0.7cm;
+    margin-bottom: 15px;
+}
+
+.footer-details img{
+    padding-right: 10px;
+}
+.sub-title{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+.input-box::placeholder{
+    color: white;
+}
+.input-box{
+    background-color: transparent;
+    margin:15px 0px;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid white;
+    outline: none;
+}
+.sub-btn{
+    border: none;
+    padding: 18px 35px;
+    color: white;
+    background-color:rgb(1, 127, 253);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+/* footer section design end */
